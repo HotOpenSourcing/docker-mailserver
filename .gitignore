@@ -2,7 +2,6 @@
 ###  General  ###################################
 #################################################
 
-.env
 compose.override.yaml
 docs/site/
 docker-data/
@@ -12,7 +11,6 @@ docker-data/
 #################################################
 
 .idea/
-.vscode/
 
 #################################################
 ###  Tests  #####################################
@@ -21,3 +19,5 @@ docker-data/
 test/duplicate_configs/
 test/config/dovecot-masters.cf
 test/config/postfix-accounts.cf
+config.bat
+node_modules
